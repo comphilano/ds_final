@@ -14,20 +14,20 @@ No. 15
 
 1. Open GetData.ipynb
 
-2. Change arguments when init APIService:
+2. Change the arguments when init APIService:
 
 APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")
 
-<Do not change this> newest: the item which is the first be getted (start with 0) (*)
+<Do not change this> newest: the item which is the first be got (start with 0) (*)
 
 keyword: keyword
 
-categoryids: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category and look on url bar:
+categoryids: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category, and look on the URL bar:
 It will show something like this:
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
 The value of param facet (2829) is the categoryids you need.
 
-(*) You will change the value of this when create new instance of the crawler: getData = GetData(0)
+(*) You will change the value of this when creating a new instance of the crawler: getData = GetData(0)
 
 3. Change file name: 
 
