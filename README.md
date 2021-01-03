@@ -7,3 +7,28 @@ No. 15
 18120184 - Nguyễn Nguyên Khang
 
 18120189 - Trần Đăng Khoa
+
+## How to use
+
+### Crawler
+
+1. Open GetData.ipynb
+
+2. Change arguments when init APIService:
+
+APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")
+
+<Do not change this> newest: the item which is the first be getted (start with 0) (*)
+
+keyword: keyword
+
+categoryids: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category and look on url bar:
+It will show something like this:
+https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
+The value of param facet (2829) is the categoryids you need.
+
+(*) You will change the value of this when create new instance of the crawler: getData = GetData(0)
+
+3. Change file name: 
+
+getData.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
