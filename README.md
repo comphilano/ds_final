@@ -16,7 +16,7 @@ No. 15
 
 2. Change the arguments when init APIService:
 
-<python>APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")</python>
+`<APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")>`
 
 newest: the item which is the first be got (start with 0) (Do not change this)(*)
 
@@ -27,10 +27,11 @@ It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
 
-The value of param facet (2829) is the categoryids you need.
+The value of param `<facet>` (2829) is the `<categoryids>` you need.
 
 (*) You will change the value of this when creating a new instance of the crawler: getData = GetData(0)
 
 3. Change file name: 
-
+```python
 getData.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
+```
