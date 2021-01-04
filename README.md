@@ -11,7 +11,7 @@ No. 15
 :dart:
 Task | Assigned
 ------------ | -------------
-Data Crawler :tada: | @Al3927 Nguyen Khang
+:white_check_mark: Data Crawler :tada: | @Al3927 Nguyen Khang
 Preprocessing | @Al3927 Nguyen Khang
 Train model and review them | @cstotodile Tran Khoa
 
