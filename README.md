@@ -37,7 +37,7 @@ It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
 
-The value of param `<facet>` (2829) is the `<categoryids>` you need.
+The value of param `facet` (2829) is the `categoryids` you need.
 
 (*) You will change the value of this when creating a new instance of the crawler: 
 ```python 
