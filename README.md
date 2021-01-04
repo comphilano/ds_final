@@ -1,6 +1,6 @@
 # ds_final
 
-A simple Data Science Project. Enjoy and Star  :star:
+A simple Data Science Project. Enjoy it and Star it :star:
 ## Group info:
 
 No. 15
@@ -43,10 +43,10 @@ The value of param `facet` (2829) is the `categoryids` you need.
 
 (*) You will change the value of this when creating a new instance of the crawler: 
 ```python 
-getData = GetData(0) 
+crawler = DataCrawler(0)
 ```
 
 3. Change file name: 
 ```python
-getData.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
+crawler.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
 ```
