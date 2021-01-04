@@ -37,7 +37,7 @@ This dataset have 30 features before preprocessing:
 
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
-The most importance feature is: `sell_time`. This feature describe how long the item have been sold.
+The most importance feature is: `sell_time`. This feature be calculated by: ```item_be_got_time - item_public_time```, describe how long the item have been sold
 
 ## How to use
 
