@@ -31,7 +31,7 @@ https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true
 
 The value of param `<facet>` (2829) is the `<categoryids>` you need.
 
-(*) You will change the value of this when creating a new instance of the crawler: getData = GetData(0)
+(*) You will change the value of this when creating a new instance of the crawler: ```python getData = GetData(0) ```
 
 3. Change file name: 
 ```python
