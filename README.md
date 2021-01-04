@@ -16,7 +16,9 @@ Task | Assigned
 Data Exploration & Preprocessing | @Al3927 Nguyen Khang
 Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 
+## Dataset
 
+![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
 ## How to use
 
