@@ -24,6 +24,10 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 
 ## Dataset
 
+We crawl this dataset from shoppe.vn
+
+This dataset have 30 features before preprocessing:
+
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
 ## How to use
