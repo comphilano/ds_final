@@ -13,8 +13,8 @@ No. 15
 Task | Assigned
 ------------ | -------------
 :white_check_mark: Data Crawler | @Al3927 Nguyen Khang
-Preprocessing | @Al3927 Nguyen Khang
-Train model and review them | @cstotodile Tran Khoa
+Data Exploration & Preprocessing | @Al3927 Nguyen Khang
+Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 
 
 
