@@ -33,11 +33,11 @@ Output: `historical_sold` of an item in shopee.vn
 
 We crawl this dataset from shopee.vn
 
-This dataset have 30 features before preprocessing:
+This dataset has 30 features before preprocessing:
 
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
-The most importance feature is: `sell_time`. This feature be calculated by: ```item_be_got_time - item_public_time```, describe how long the item have been sold
+The most important feature is: `sell_time`. This feature be calculated by ```item_be_got_time - item_public_time```, describe how long the item has been sold
 
 ## How to use
 
@@ -55,7 +55,7 @@ _newest_: the item which is the first be got (start with 0) (Do not change this)
 
 _keyword_: keyword
 
-_categoryids_: in this specific case (shoppe), some keywords have specific category, you can go to shopee, search with your keyword, choose the category, and look on the URL bar:
+_categoryids_: in this specific case (shoppe), some keywords have specifics category, you can go to shopee, search with your keyword, choose the category, and look on the URL bar:
 It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
