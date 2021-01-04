@@ -8,9 +8,11 @@ No. 15
 
 18120189 - Trần Đăng Khoa
 
-- [x] Data Crawler: Nguyen Khang
-- [] Preprocessing: Nguyen Khang
-- [] Train model and review them: Dang Khoa
+Subject | Attachment
+------------ | -------------
+- [x] Data Crawler | Nguyen Khang
+- [ ] Preprocessing | Nguyen Khang
+- [ ] Train model and review them | Dang Khoa
 
 
 ## How to use
