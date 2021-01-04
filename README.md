@@ -11,7 +11,9 @@ No. 15
 Subject | Attachment
 ------------ | -------------
 - [x] Data Crawler | Nguyen Khang
+------------ | -------------
 - [ ] Preprocessing | Nguyen Khang
+------------ | -------------
 - [ ] Train model and review them | Dang Khoa
 
 
