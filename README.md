@@ -1,5 +1,6 @@
 # ds_final
 
+A simple Data Science Project. Enjoy and Star  :star:
 ## Group info:
 
 No. 15
@@ -11,7 +12,7 @@ No. 15
 :dart:
 Task | Assigned
 ------------ | -------------
-:white_check_mark: Data Crawler :tada: | @Al3927 Nguyen Khang
+:white_check_mark: Data Crawler | @Al3927 Nguyen Khang
 Preprocessing | @Al3927 Nguyen Khang
 Train model and review them | @cstotodile Tran Khoa
 
