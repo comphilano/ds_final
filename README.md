@@ -8,7 +8,7 @@ No. 15
 
 18120189 - Trần Đăng Khoa
 
-Subject | Assigned
+Task | Assigned
 ------------ | -------------
 Data Crawler | Nguyen Khang
 Preprocessing | Nguyen Khang
