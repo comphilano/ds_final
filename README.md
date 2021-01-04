@@ -18,6 +18,7 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 
 ## Table of Contents
 
+- [The Question](#the-question)
 - [Dataset](#Dataset)
 - [How to use](#how-to-use)
   - [Crawler](#Crawler)
@@ -26,7 +27,7 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 
 > __How to sell well on shopee.vn?__
 
-Output: historical_sold of an item
+Output: `historical_sold` of an item in shopee.vn
 
 ## Dataset
 
