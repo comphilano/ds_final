@@ -1,6 +1,6 @@
 # ds_final
 
-A simple Data Science Project. Enjoy and Star  :star:
+A simple Data Science Project. Enjoy it and Star it :star:
 ## Group info:
 
 No. 15
