@@ -11,9 +11,7 @@ No. 15
 Subject | Attachment
 ------------ | -------------
 Data Crawler | Nguyen Khang
-
 Preprocessing | Nguyen Khang
-
 Train model and review them | Dang Khoa
 
 
@@ -30,11 +28,11 @@ Train model and review them | Dang Khoa
 APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")
 ```
 
-newest: the item which is the first be got (start with 0) (Do not change this)(*)
+_newest_: the item which is the first be got (start with 0) (Do not change this)(*)
 
-keyword: keyword
+_keyword_: keyword
 
-categoryids: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category, and look on the URL bar:
+_categoryids_: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category, and look on the URL bar:
 It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
