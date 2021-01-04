@@ -16,7 +16,9 @@ No. 15
 
 2. Change the arguments when init APIService:
 
-`<APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")>`
+```python
+APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")
+```
 
 newest: the item which is the first be got (start with 0) (Do not change this)(*)
 
