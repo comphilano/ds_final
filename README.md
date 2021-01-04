@@ -22,9 +22,11 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 - [How to use](#how-to-use)
   - [Crawler](#Crawler)
 
+> How to sell well on shopee.vn?
+
 ## Dataset
 
-We crawl this dataset from shoppe.vn
+We crawl this dataset from shopee.vn
 
 This dataset have 30 features before preprocessing:
 
@@ -46,7 +48,7 @@ _newest_: the item which is the first be got (start with 0) (Do not change this)
 
 _keyword_: keyword
 
-_categoryids_: in this specific case (shoppe), some keywords have specific category, you can go to shoppe, search with your keyword, choose the category, and look on the URL bar:
+_categoryids_: in this specific case (shoppe), some keywords have specific category, you can go to shopee, search with your keyword, choose the category, and look on the URL bar:
 It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
