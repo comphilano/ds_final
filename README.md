@@ -10,9 +10,9 @@ No. 15
 
 Task | Assigned
 ------------ | -------------
-Data Crawler | Nguyen Khang
-Preprocessing | Nguyen Khang
-Train model and review them | Dang Khoa
+Data Crawler | @Al3927 Nguyen Khang
+Preprocessing | @Al3927 Nguyen Khang
+Train model and review them | @cstotodile Tran Khoa
 
 
 
