@@ -22,7 +22,7 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 - [How to use](#how-to-use)
   - [Crawler](#Crawler)
 
-> ## __How to sell well on shopee.vn?__
+> __How to sell well on shopee.vn?__
 
 ## Dataset
 
