@@ -10,7 +10,7 @@ No. 15
 
 Subject | Attachment
 ------------ | -------------
-  - [x] Data Crawler | Nguyen Khang
+ Data Crawler | Nguyen Khang
 
   - [ ] Preprocessing | Nguyen Khang
 
