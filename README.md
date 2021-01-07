@@ -33,7 +33,7 @@ Output: `historical_sold` of an item in shopee.vn
 
 We crawl this dataset from shopee.vn
 
-This dataset has 30 features before preprocessing:
+This dataset has 33 features before preprocessing:
 
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
