@@ -45,27 +45,27 @@ The most important feature is: `sell_time`. This feature be calculated by ```ite
 
 1. Open GetData.ipynb
 
-2. Change the arguments when init APIService:
+2. Change the arguments when init Crawler (creating a new instance of the crawler):
 
 ```python
-APIService = APIService(newest, keyword = "thoi trang nam", categoryids = "2829")
+crawler = DataCrawler(newest = 0, keyword = 'thoi trang nam', categoryids = '15139')
 ```
 
-_newest_: the item which is the first be got (start with 0) (Do not change this)(*)
+_newest_: the first item will be got (start with 0)
 
 _keyword_: keyword
 
-_categoryids_: in this specific case (shoppe), some keywords have specifics category, you can go to shopee, search with your keyword, choose the category, and look on the URL bar:
+_categoryids_: in this specific case (shopee), some keywords have specifics category, you can go to shopee, search with your keyword, choose the category, and look on the URL bar:
+
 It will show something like this:
 
 https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
 
 The value of param `facet` (2829) is the `categoryids` you need.
 
-(*) You will change the value of this when creating a new instance of the crawler: 
-```python 
-crawler = DataCrawler(0)
-```
+_Notice that in this project we don't support call multi categoryids._
+
+
 
 3. Change file name: 
 ```python
