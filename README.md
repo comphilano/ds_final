@@ -13,8 +13,9 @@ No. 15
 Task | Assigned
 ------------ | -------------
 :white_check_mark: Data Crawler | @Al3927 Nguyen Khang
-Data Exploration & Preprocessing | @Al3927 Nguyen Khang
-Data Modeling (Train models and review them) | @cstotodile Tran Khoa
+:white_check_mark: Data Exploration & Preprocessing | @Al3927 Nguyen Khang, @cstotodile Tran Khoa
+:white_check_mark: Data Modeling (Train models and review them) | @cstotodile Tran Khoa
+README.md | @Al3927 Nguyen Khang
 
 ## Table of Contents
 
@@ -22,6 +23,7 @@ Data Modeling (Train models and review them) | @cstotodile Tran Khoa
 - [Dataset](#Dataset)
 - [How to use](#how-to-use)
   - [Crawler](#Crawler)
+- [Know the code](#Know-the-code)
 
 ## The question
 
@@ -40,6 +42,14 @@ This dataset has 33 features before preprocessing:
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
 The most important feature is: `sell_time`. This feature be calculated by ```item_be_got_time - item_public_time```, describe how long the item has been sold
+
+Feature | Meaning
+------------ | -------------
+`name` | string, item name
+`shop_location` | string, location of the shop sell this item
+`item_puplic_time` | int, the number of seconds since midnight, January 1, 1970 (time since 1970) to the time this item be public.
+`item_be_got_time` | int, the number of seconds since midnight, January 1, 1970 to the time this item be got.
+`sell_time` | int, the time this item be sell on shopee formed by  _time since 1970_, `sell_time = item_be_got_time - item_puplic_time`
 
 ## How to use
 
@@ -73,3 +83,5 @@ _Notice that in this project we don't support call multi categoryids._
 ```python
 crawler.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
 ```
+
+## Know the code
