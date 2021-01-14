@@ -15,7 +15,7 @@ Task | Assigned
 :white_check_mark: Data Crawler | @Al3927 Nguyen Khang
 :white_check_mark: Data Exploration & Preprocessing | @Al3927 Nguyen Khang, @cstotodile Tran Khoa
 :white_check_mark: Data Modeling (Train models and review them) | @cstotodile Tran Khoa
-README.md | @Al3927 Nguyen Khang
+README.md, teamwork.pdf | @Al3927 Nguyen Khang
 
 ## Table of Contents
 
