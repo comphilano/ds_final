@@ -45,21 +45,21 @@ The most important feature is: `sell_time`. This feature be calculated by ```ite
 
 Feature | Meaning (At the time this item be got)
 ------------ | -------------
-`category_id` | int, id of the item's category
+`category_id` | int, the id of the item's category
 `name` | string, item name
 `shop_location` | string, location of the shop sell this item
 `item_puplic_time` | int, the number of seconds since midnight, January 1, 1970 (time since 1970) to the time this item be public.
-`item_be_got_time` | int, the number of seconds since midnight, January 1, 1970 to the time this item be got.
-`sell_time` | int, the time this item be sell on shopee formed by  _time since 1970_, `sell_time = item_be_got_time - item_puplic_time`
-`shopee_verirfied` | bool, is this shop be verirified or not
-`discount` | float, discount of this item
+`item_be_got_time` | int, the number of seconds since midnight, January 1, 1970, to the time this item be got.
+`sell_time` | int, the time this item be sell on Shopee formed by  _time since 1970_, `sell_time = item_be_got_time - item_puplic_time`
+`shopee_verirfied` | bool, is this shop be verified or not
+`discount` | float, the discount of this item
 `is_adult` | bool, is this item for adult
 `options` | int, How many options this item has
-show_official_shop_label_in_title | bool, show that if this item will have official shop label or not
+`show_official_shop_label_in_title` | bool, show that if this item will have an official shop label or not
 `rating star` | float, star score of this item
 `five star`, `four_star`, `three_star`, `three_star`, `two_star`, `one_star` | int, how many five star this item have
-`flash_sale` | bool, is this item have flash sale now
-`upcoming_flash_sale` | bool, is this item have upcoming flash sale
+`flash_sale` | bool, is this item have a flash sale now
+`upcoming_flash_sale` | bool, is this item has an upcoming flash sale
 `price_min` | int price min of this item
 `price_min_before_discount` | int, price min before discount
 `price_max` | int, price max of this item
@@ -67,15 +67,15 @@ show_official_shop_label_in_title | bool, show that if this item will have offic
 `price` | float, price of this item
 `price_before_discount` | int, price before discount
 About price feature, we have an example: | ~2000 - 5000~ 1000 - 2500: pmin = 100000000, pmax = 250000000, p = 100000000, pminbf = 200000000, pmaxbf = 500000000
-`coin_earn_label` | bool, show coin earn leabel or not
+`coin_earn_label` | bool, show coin earn label or not
 `liked_count` | int, how many liked this item has
-`view_count` | int, how many view for this item
-`cmt_count` | int, how many comment for this item
-`is_preferred_plus_seller` | bool, show if this item have an icon tell this is a preferred plus seller or not
-`show_free_shipping` | bool, show if this item have an icon freeship or not 
+`view_count` | int, how many views for this item
+`cmt_count` | int, how many comments for this item
+`is_preferred_plus_seller` | bool, show if this item has an icon tell this is a preferred plus seller or not
+`show_free_shipping` | bool, show if this item has an icon freeship or not 
 `images` | int, how many images this item has
 `video_info_list` | int, how many videos this item has
-`historical_sold` | int, how many item has been sold
+`historical_sold` | int, how many items have been sold
 
 ## How to use
 
