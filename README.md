@@ -111,3 +111,5 @@ crawler.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
 ```
 
 ## Know the code
+
+Check `Slide.pdf`
