@@ -1,5 +1,6 @@
-Feature | Meaning
+Feature | Meaning (At the time this item be got)
 ------------ | -------------
+`category_id` | int, id of the item's category
 `name` | string, item name
 `shop_location` | string, location of the shop sell this item
 `item_puplic_time` | int, the number of seconds since midnight, January 1, 1970 (time since 1970) to the time this item be public.
@@ -9,6 +10,24 @@ Feature | Meaning
 `discount` | float, discount of this item
 `is_adult` | bool, is this item for adult
 `options` | int, How many options this item has
+show_official_shop_label_in_title | bool, show that if this item will have official shop label or not
 `rating star` | float, star score of this item
-`five star` | int, how many five star this item have
+`five star`, `four_star`, `three_star`, `three_star`, `two_star`, `one_star` | int, how many five star this item have
+`flash_sale` | bool, is this item have flash sale now
+`upcoming_flash_sale` | bool, is this item have upcoming flash sale
+`price_min` | int price min of this item
+`price_min_before_discount` | int, price min before discount
+`price_max` | int, price max of this item
+`price_max_before_discount` | int, price max before discount
+`price` | float, price of this item
+`price_before_discount` | int, price before discount
+About price feature, we have an example: | ~2000 - 5000~ 1000 - 2500: pmin = 100000000, pmax = 250000000, p = 100000000, pminbf = 200000000, pmaxbf = 500000000
+`coin_earn_label` | bool, show coin earn leabel or not
+`liked_count` | int, how many liked this item has
+`view_count` | int, how many view for this item
+`cmt_count` | int, how many comment for this item
+`is_preferred_plus_seller` | bool, show if this item have an icon tell this is a preferred plus seller or not
+`show_free_shipping` | bool, show if this item have an icon freeship or not 
+`images` | int, how many images this item has
+`video_info_list` | int, how many videos this item has
 `historical_sold` | int, how many item has been sold
