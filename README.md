@@ -50,6 +50,13 @@ Feature | Meaning
 `item_puplic_time` | int, the number of seconds since midnight, January 1, 1970 (time since 1970) to the time this item be public.
 `item_be_got_time` | int, the number of seconds since midnight, January 1, 1970 to the time this item be got.
 `sell_time` | int, the time this item be sell on shopee formed by  _time since 1970_, `sell_time = item_be_got_time - item_puplic_time`
+`shopee_verirfied` | bool, is this shop be verirified or not
+`discount` | float, discount of this item
+`is_adult` | bool, is this item for adult
+`options` | int, How many options this item has
+`rating star` | float, star score of this item
+`five star` | int, how many five star this item have
+`historical_sold` | int, how many item has been sold
 
 ## How to use
 
