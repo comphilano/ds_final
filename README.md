@@ -5,16 +5,16 @@ A simple Data Science Project. Enjoy it and Star it :star:
 
 No. 15
 
-18120184 - Nguyễn Nguyên Khang
+18120184 - Nguyễn Nguyên Khang @Al3927
 
-18120189 - Trần Đăng Khoa
+18120189 - Trần Đăng Khoa @cstotodile
 
 :dart:
 Task | Assigned
 ------------ | -------------
 :white_check_mark: Data Crawler | @Al3927 Nguyen Khang
 :white_check_mark: Data Exploration & Preprocessing | @Al3927 Nguyen Khang, @cstotodile Tran Khoa
-:white_check_mark: Data Modeling (Train models and review them) | @cstotodile Tran Khoa
+:white_check_mark: Data Modeling (Train models and review them) | @Al3927 Nguyen Khang, @cstotodile Tran Khoa
 README.md, teamwork.pdf | @Al3927 Nguyen Khang
 
 ## Table of Contents
@@ -37,7 +37,7 @@ We crawl this dataset from shopee.vn
 
 ![dataShape](/images/dataShape.jpg)
 
-This dataset has 33 features before preprocessing:
+This dataset has 34 features before preprocessing:
 
 ![features](https://github.com/cstotodile/ds_final/blob/main/images/features.jpg?raw=true)
 
