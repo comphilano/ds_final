@@ -1,6 +1,6 @@
 # ds_final
 
-> Update 07/10/2022: Up-to-date Shopee data crawler at [this repo](https://github.com/Al3927/Delegation-Pattern-In-Python-To-Crawl-Data-With-API/tree/main/application/shopee)
+:loudspeaker: **Update 07/10/2022: Up-to-date Shopee data crawler at [this repo](https://github.com/Al3927/Delegation-Pattern-In-Python-To-Crawl-Data-With-API/tree/main/application/shopee)**
 
 A simple Data Science Project. Enjoy it and Star it :star:
 
