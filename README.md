@@ -1,7 +1,10 @@
 # ds_final
 
+> Update 07/10/2022: Up-to-date Shopee data crawler at [this repo](https://github.com/Al3927/Delegation-Pattern-In-Python-To-Crawl-Data-With-API/tree/main/application/shopee)
+
 A simple Data Science Project. Enjoy it and Star it :star:
-## Group info:
+
+## Group info
 
 No. 15
 
@@ -19,11 +22,14 @@ README.md, teamwork.pdf | @Al3927 Nguyen Khang
 
 ## Table of Contents
 
-- [The Question](#the-question)
-- [Dataset](#Dataset)
-- [How to use](#how-to-use)
-  - [Crawler](#Crawler)
-- [Know the code](#Know-the-code)
+- [ds_final](#ds_final)
+  - [Group info](#group-info)
+  - [Table of Contents](#table-of-contents)
+  - [The question](#the-question)
+  - [Dataset](#dataset)
+  - [How to use](#how-to-use)
+    - [Crawler](#crawler)
+  - [Know the code](#know-the-code)
 
 ## The question
 
@@ -72,7 +78,7 @@ About price feature, we have an example: | ~2000 - 5000~ 1000 - 2500: pmin = 100
 `view_count` | int, how many views for this item
 `cmt_count` | int, how many comments for this item
 `is_preferred_plus_seller` | bool, show if this item has an icon tell this is a preferred plus seller or not
-`show_free_shipping` | bool, show if this item has an icon freeship or not 
+`show_free_shipping` | bool, show if this item has an icon freeship or not
 `images` | int, how many images this item has
 `video_info_list` | int, how many videos this item has
 `historical_sold` | int, how many items have been sold
@@ -97,15 +103,14 @@ _categoryids_: in this specific case (shopee), some keywords have specifics cate
 
 It will show something like this:
 
-https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0
+<https://shopee.vn/search?facet=2829&keyword=thoi%20trang%20nam&noCorrection=true&page=0>
 
 The value of param `facet` (2829) is the `categoryids` you need.
 
 _Notice that in this project we don't support call multi categoryids._
 
+3. Change file name:
 
-
-3. Change file name: 
 ```python
 crawler.saveFile("ShoppeItem_thoiTrangNam_aoKhoacAoVest.tsv")
 ```
